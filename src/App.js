@@ -29,7 +29,12 @@ class App extends Component {
         <h1>Hi, My name is Chaman Gurjar.</h1>
         <p>This is my official website.</p>
         <button onClick={this.switchNameHandler}> Change Name </button>
-        <Person name={this.state.persons[0].name} age={this.state.persons[0].age}></Person>
+        <Person name={this.state.persons[0].name} age={this.state.persons[0].age}> My Hobbies Are :
+        <li>Listening Music</li>
+        <li>Reading Motivational Books</li>
+        <li>Reading blogs regarding software development techniques.</li>
+        <br></br>
+        </Person>
         <Person name={this.state.persons[1].name} age={this.state.persons[1].age}></Person>
         <Person name={this.state.persons[2].name} age={this.state.persons[2].age}></Person>
       </div>
