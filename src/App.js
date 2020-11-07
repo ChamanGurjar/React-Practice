@@ -34,7 +34,13 @@ const App = () => {
         <li>Reading blogs regarding software development techniques.</li>
         <br></br>
         </Person>
-        <Person name={personState.persons[1].name} age={personState.persons[1].age}></Person>
+
+        <Person 
+        name={personState.persons[1].name} 
+        age={personState.persons[1].age}
+        click={switchNameHandler}>
+        </Person>
+        
         <Person name={personState.persons[2].name} age={personState.persons[2].age}></Person>
       </div>
     )
