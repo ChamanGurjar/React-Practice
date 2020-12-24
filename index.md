@@ -4,7 +4,7 @@ This repository contains code I wrote when learning the React. This repository c
 
 ### How to run
 
-To run the project clone the repo. Go to respective folder you want to run and use following command
+To run the project clone the repo. Go to respective folder you want to run and use following command :-
 
 ### `npm start`
 
