@@ -1,14 +1,10 @@
-# React-Practice
-This project contains code while practicing/learning react.
+## Welcome To My React Learning Journey
 
+This repository contains code I wrote when learning the React. This repository contains the code from the udemy course of Max and some other tutorials I followed on Youtube, medium, freecode camp or some other websites.
 
-# Getting Started with Create React App
+### How To Run Project(s)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+To run the project clone the repo. Go to respective folder you want to run and use following command :-
 
 ### `npm start`
 
