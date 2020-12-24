@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome To My React Learning Journey
 
 This repository contains code I wrote when learning the React. This repository contains the code from the udemy course of Max and some other tutorials I followed on Youtube, medium, freecode camp or some other websites.
 
