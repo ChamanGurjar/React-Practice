@@ -1,9 +1,11 @@
 
 
-function Candidate() {
+function Candidate({ name }) {
     return (
 
-        <h3> Candidate</h3>
+        <div style={{ background: "yellow", padding: 10 }}>
+            <h1>{name}</h1>
+        </div>
     )
 }
 
