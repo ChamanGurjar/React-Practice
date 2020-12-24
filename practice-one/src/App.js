@@ -8,9 +8,9 @@ function App() {
       <img src={logo} className="App-logo" alt="logo" />
       <h1>Learning React...</h1>
 
-      <Candidate name="Chaman" />
-      <Candidate name="Abhijeet" />
-      <Candidate name="Ajay" />
+      <Candidate firstName="Chaman" lastName="Singh" />
+      <Candidate firstName="Abhijeet" lastName="Gurjar" />
+      <Candidate firstName="Ajay" lastName="Kapasiya" />
     </div>
   );
 }

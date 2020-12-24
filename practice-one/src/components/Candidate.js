@@ -1,10 +1,11 @@
 
 
-function Candidate({ name }) {
+function Candidate({ firstName, lastName }) {
     return (
 
         <div style={{ background: "yellow", padding: 10 }}>
-            <h1>{name}</h1>
+            <p><h3>{firstName} </h3><h4>{lastName}</h4></p>
+
         </div>
     )
 }
