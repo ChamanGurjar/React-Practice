@@ -2,9 +2,9 @@
 
 This repository contains code I wrote when learning the React. This repository contains the code from the udemy course of Max and some other tutorials I followed on Youtube, medium, freecode camp or some other websites.
 
-### Markdown
+### How To Run Project(s)
 
-To run the project clone the repo. Go to respective folder you want to run and use following command
+To run the project clone the repo. Go to respective folder you want to run and use following command :-
 
 ### `npm start`
 
