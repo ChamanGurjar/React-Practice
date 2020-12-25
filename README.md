@@ -1,6 +1,8 @@
 ## Welcome To My React Learning Journey
 
-This repository contains code I wrote when learning the React. This repository contains the code from the udemy course of Max and some other tutorials I followed on Youtube, medium, freecode camp or some other websites.
+This project provides insights abount my corporate life (Like Resume).
+
+PS :- This repository contains code I wrote when learning the React. This repository contains the code from the udemy course of Max and some other tutorials I followed on Youtube, medium, freecode camp or some other websites.
 
 ### How To Run Project(s)
 
