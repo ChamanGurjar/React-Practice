@@ -1,10 +1,15 @@
 import './App.css';
+import About from './Components/About';
+import Experience from './Components/Experience';
+import Header from './Components/Header';
 
 function App() {
   return (
     <div className="App">
-      My Journey As A Developer.
-    </div>
+      <Header />
+      <About />
+      <Experience />
+    </div >
   );
 }
 
