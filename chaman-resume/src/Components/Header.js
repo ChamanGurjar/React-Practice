@@ -27,7 +27,7 @@ const Header = () => {
                                 <NavLink className="text-dark" target="_blank" href="https://chamangurjar.github.io/chaman-singh/">About</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="text-dark" href="https://github.com/reactstrap/reactstrap">Experience</NavLink>
+                                <NavLink className="text-dark" href="/experience">Experience</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink className="text-dark" target="_blank" href="https://github.com/ChamanGurjar">GitHub</NavLink>
