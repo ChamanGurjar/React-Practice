@@ -38,6 +38,9 @@ const Header = () => {
                             <NavItem>
                                 <NavLink className="text-dark" target="_blank" href="https://twitter.com/chamangurjar">Twitter</NavLink>
                             </NavItem>
+                            <NavItem>
+                                <NavLink className="text-dark" target="_blank" href="https://github.com/ChamanGurjar/React-Practice/tree/resume">Project-Code</NavLink>
+                            </NavItem>
                         </Nav>
                     </Collapse>
                 </Navbar>
