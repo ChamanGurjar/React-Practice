@@ -3,7 +3,7 @@ import Company from './Company';
 import Header from './Header';
 
 
-const Experience = () => {
+const Experience = ({ isFromLink }) => {
     const companies = [{
         companyName: "Mettl",
         duration: "Joined at May 2020",
@@ -25,7 +25,7 @@ const Experience = () => {
 
     return (
         <div>
-            <Header />
+            {isFromLink == "NO" ? "" : <Header />}
             <h4 className="ml-3">My experice is following :-</h4>
             {
                 companies.length > 0 ?

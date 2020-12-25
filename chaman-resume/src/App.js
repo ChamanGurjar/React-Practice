@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <About />
+      <Experience isFromLink={"NO"} />
     </div >
 
   );
