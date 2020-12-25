@@ -1,5 +1,6 @@
 import React from 'react';
 import Company from './Company';
+import Header from './Header';
 
 
 const Experience = () => {
@@ -24,7 +25,8 @@ const Experience = () => {
 
     return (
         <div>
-            <h4>My experice is following :-</h4>
+            <Header />
+            <h4 className="ml-3">My experice is following :-</h4>
             {
                 companies.length > 0 ?
                     companies.map((item) => <Company companyDetails={item} />) : "No experience"

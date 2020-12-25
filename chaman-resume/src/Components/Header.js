@@ -19,7 +19,7 @@ const Header = () => {
             <Jumbotron style={{ backgroundColor: bgColor }}>
                 {/* <Navbar color="light" light expand="md"> */}
                 <Navbar color="faded" light>
-                    <NavbarBrand href="/" className="mr-auto">Hi, Welcome to my website. Chaman Singh.</NavbarBrand>
+                    <NavbarBrand href="/" className="mr-auto">Hi, Welcome to my website. This website is created in React by Chaman Singh.</NavbarBrand>
                     <NavbarToggler onClick={toggleNavbar} className="mr-2" />
                     <Collapse isOpen={!collapsed} navbar>
                         <Nav navbar>
