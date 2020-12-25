@@ -24,13 +24,13 @@ const Header = () => {
                     <Collapse isOpen={!collapsed} navbar>
                         <Nav navbar>
                             <NavItem>
-                                <NavLink className="text-dark" href="/components/">About</NavLink>
+                                <NavLink className="text-dark" target="_blank" href="https://chamangurjar.github.io/chaman-singh/">About</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink className="text-dark" href="https://github.com/reactstrap/reactstrap">Experience</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="text-dark" target="_blank" href="https://chamangurjar.github.io/chaman-singh/">GitHub</NavLink>
+                                <NavLink className="text-dark" target="_blank" href="https://github.com/ChamanGurjar">GitHub</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink className="text-dark" target="_blank" href="https://www.linkedin.com/in/singh-chaman/">Linked In</NavLink>

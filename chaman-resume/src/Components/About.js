@@ -1,6 +1,6 @@
 import React from 'react';
 import Chaman from '../assets/Chaman.jpeg'
-
+import { Button } from 'reactstrap';
 
 const About = () => {
 
@@ -8,6 +8,11 @@ const About = () => {
         width: 150,
         height: 150,
         borderRadius: 75
+    }
+
+    const gotoGithubResumePage = () => {
+        const url = "https://chamangurjar.github.io/chaman-singh/";
+        window.open(url, '_blank');
     }
 
     return (
@@ -36,6 +41,9 @@ const About = () => {
                     <li>Angular</li>
                     <li>React </li>
                 </ul>
+                <hr />
+                <Button color="primary" onClick={gotoGithubResumePage}>Check More</Button>
+                <p></p>
             </div>
 
         </div >
