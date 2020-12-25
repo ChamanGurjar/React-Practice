@@ -9,10 +9,6 @@ function App() {
       <Header />
       <About />
       <Experience />
-
-
-
-
     </div >
   );
 }
