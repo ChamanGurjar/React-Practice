@@ -7,7 +7,7 @@ require('codemirror/mode/clike/clike');
 
 const CodeMirrorViewUncontrolled = () => {
     const options = {
-        mode: 'text/x-sql',
+        mode: 'text/x-java',
         // theme: 'material',
         lineNumbers: true
     }
