@@ -4,9 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import About from './Components/About';
+import Experience from './Components/Experience';
+
+const routing = (
+  <Router>
+    <div>
+      <Route exact path="/" component={App} />
+      <Route path="/about" component={About} />
+      <Route path="/experience" component={Experience} />
+    </div>
+  </Router>
+)
 
 ReactDOM.render(
-  <App />,
+  routing,
   document.getElementById('root')
 );
 
