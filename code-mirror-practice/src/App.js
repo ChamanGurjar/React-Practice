@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import CodeMirrorView from './Component/CodeMirrorView';
+import CodeMirrorViewUncontrolled from './Component/CodeMirrorViewUncontrolled';
 
 function App() {
   return (
@@ -9,7 +8,8 @@ function App() {
       <p>
         Code Mirror Practice
         </p>
-      <CodeMirrorView />
+      {/* <CodeMirrorView /> */}
+      <CodeMirrorViewUncontrolled />
 
       {/* </header> */}
     </div>
