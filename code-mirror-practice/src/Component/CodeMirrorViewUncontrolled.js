@@ -3,11 +3,11 @@ import { UnControlled as CodeMirror } from 'react-codemirror2'
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/material.css';
 require('codemirror/mode/sql/sql');
-require('codemirror/mode/swift/swift');
+require('codemirror/mode/clike/clike');
 
 const CodeMirrorViewUncontrolled = () => {
     const options = {
-        mode: 'text/x-swift',
+        mode: 'text/x-sql',
         // theme: 'material',
         lineNumbers: true
     }
